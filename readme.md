@@ -4,24 +4,24 @@ App desenvolvido com React Native, usando a API de previsão do tempo [Advisor](
 
 # Comandos Úteis
 
-## Install App
+### Install App
 
 Abra um emulador e execute:
 
 > npx react-native run-android
 
-## Run Metro Server
+### Run Metro Server
 
 > npx react-native start
 
-## Load bundle.js in device
+### Load bundle.js in device
 
 > set Debug server host & port for device -> [IP_LOCAL]:8081
 
-## Generate APK
+### Generate APK
 
 > cd android && gradlew bundleRelease
 
-## Test APK
+### Test APK
 
 > npx react-native run-android --variant=release
