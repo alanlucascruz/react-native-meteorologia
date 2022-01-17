@@ -25,3 +25,9 @@ Abra um emulador e execute:
 ### Test APK
 
 > npx react-native run-android --variant=release
+
+### Resolução de Erros
+
+- Erro: Execution failed for task ':app:mergeDebugShaders'. Unable to delete file...
+
+  - Abra o CMD como administrador, navegue até o projeto e rode o comando cd android && gradlew clean
