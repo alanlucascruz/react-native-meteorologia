@@ -20,7 +20,7 @@ Abra um emulador e execute:
 
 ### Generate APK
 
-> cd android && gradlew bundleRelease
+> cd android && ./gradlew bundleRelease
 
 ### Test APK
 
