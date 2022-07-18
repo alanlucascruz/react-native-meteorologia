@@ -1,8 +1,8 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-import { colors } from '../../../styles';
+import {StyleSheet, Text, View} from 'react-native';
+import {colors} from '../../../styles';
 
-export default ({ item }) => {
+export default ({item}) => {
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Umidade Relativa do Ar</Text>
@@ -31,7 +31,7 @@ export default ({ item }) => {
       </View>
     </View>
   );
-}
+};
 
 const styles = StyleSheet.create({
   container: {
@@ -42,7 +42,7 @@ const styles = StyleSheet.create({
     textTransform: 'uppercase',
     color: colors.textLight,
     marginBottom: 16,
-    fontWeight: '700'
+    fontWeight: '700',
   },
   row: {
     flexDirection: 'row',
@@ -50,13 +50,13 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   col: {
-    alignItems: 'center'
+    alignItems: 'center',
   },
   subTitle: {
     fontSize: 16,
     color: colors.textLight,
     marginBottom: 8,
-    fontWeight: '500'
+    fontWeight: '500',
   },
   humidityMax: {
     fontSize: 16,
@@ -67,4 +67,4 @@ const styles = StyleSheet.create({
     fontSize: 16,
     color: colors.textSecondary,
   },
-})
+});

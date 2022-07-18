@@ -39,19 +39,19 @@ export default () => {
           if (index < 24) {
             return (
               <View style={styles.listItem} key={index}>
-                <Text style={[styles.listText, {width: 50}]}>
+                <Text style={[styles.listText, {width: 64}]}>
                   {getHoursMinutes(item.date)}
                 </Text>
                 <Text
-                  style={[styles.listText, {width: 30, textAlign: 'right'}]}>
+                  style={[styles.listText, {width: 48, textAlign: 'right'}]}>
                   {item.temperature.temperature}º
                 </Text>
                 <Text
-                  style={[styles.listText, {width: 30, textAlign: 'right'}]}>
+                  style={[styles.listText, {width: 48, textAlign: 'right'}]}>
                   {item.humidity.humidity.toFixed(0)}%
                 </Text>
                 <Text
-                  style={[styles.listText, {width: 75, textAlign: 'right'}]}>
+                  style={[styles.listText, {width: 88, textAlign: 'right'}]}>
                   {formatNumber(item.wind.velocity)} km/h
                 </Text>
               </View>
